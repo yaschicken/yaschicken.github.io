@@ -1,6 +1,25 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: url("../img/crinkled-paper-texture.jpg") center no-repeat fixed;
+}
+
+.background-img {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: block;
+    background-image: url('../img/crave.jpeg');
+    background-attachment: fixed;
+    background-color: rgba(0,0,0,1);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
 }
 
 div::selection {
@@ -23,6 +42,7 @@ main {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    z-index: 1;
 }
 
 .title {
