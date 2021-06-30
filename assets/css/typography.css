@@ -16,7 +16,7 @@
 /* meme */
 @font-face {
     font-family: "Impact";
-    src: url("../fonts/Impact.ttf") format("ttf");
+    src: url("https://raw.githubusercontent.com/yaschicken/yaschicken.github.io/master/assets/fonts/Impact.ttf") format("ttf");
 }
 
 .meme {
