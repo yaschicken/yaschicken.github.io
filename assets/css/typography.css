@@ -1,0 +1,20 @@
+/* default */
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,500,700,900&display=swap);
+
+/* default */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap);
+
+/* code */
+@import url(https://fonts.googleapis.com/css?family=PT+Mono&display=swap);
+
+/* crave */
+@font-face {
+    font-family: "SubwayNovella";
+    src: url("../fonts/SubwayNovella.ttf") format("ttf");
+}
+
+/* meme */
+@font-face {
+    font-family: "Impact";
+    src: url("../fonts/Impact.ttf") format("ttf");
+}
