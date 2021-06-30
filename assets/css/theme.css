@@ -25,21 +25,15 @@ main {
     min-height: 100vh;
 }
 
-.meme {
+.title {
     padding: 10px;
     font-family: 'Impact', 'Arial Narrow Bold', sans-serif;
     font-size: 5.2em;
-    color: white;
     letter-spacing: 1px;
     text-align: center;
-    text-shadow:
-        -1px -1px 0 #000000,
-         1px -1px 0 #000000,
-        -1px  1px 0 #000000,
-         1px  1px 0 #000000;
 }
 
 .subtitle {
+    font-family: 'Impact', 'Arial Narrow Bold', sans-serif;
     font-size: 3em;
-    text-align: center;
 }

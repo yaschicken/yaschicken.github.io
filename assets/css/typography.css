@@ -1,11 +1,11 @@
 /* default */
-@import url(https://fonts.googleapis.com/css?family=Lato:300,400,500,700,900&display=swap);
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,500,700,900&display=swap');
 
 /* default */
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap);
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
 
 /* code */
-@import url(https://fonts.googleapis.com/css?family=PT+Mono&display=swap);
+@import url('https://fonts.googleapis.com/css?family=PT+Mono&display=swap');
 
 /* crave */
 @font-face {
@@ -17,4 +17,31 @@
 @font-face {
     font-family: "Impact";
     src: url("../fonts/Impact.ttf") format("ttf");
+}
+
+.meme {
+    color: white;
+    text-shadow:
+        -1px -1px 0 #000000,
+         1px -1px 0 #000000,
+        -1px  1px 0 #000000,
+         1px  1px 0 #000000;
+}
+
+/* Permanent Marker */
+@font-face {
+    font-family: "PermanentMarker-Regular";
+    src: url("../fonts/PermanentMarker-Regular.ttf") format("ttf");
+}
+
+/* Averia Sans Libre */
+@font-face {
+    font-family: "AveriaSansLibre-Regular";
+    src: url("../fonts/AveriaSansLibre-Regular.ttf") format("ttf");
+}
+
+/* Kirang Haerang */
+@font-face {
+    font-family: "KirangHaerang-Regular";
+    src: url("../fonts/KirangHaerang-Regular.ttf") format("ttf");
 }
